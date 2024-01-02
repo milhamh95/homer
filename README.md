@@ -21,6 +21,7 @@ be found at <https://hexdocs.pm/homer>.
 
 ## Command line
 
+### Write a mix Program
 
 ```
 iex(1)> words = "Do you want a donut?"
@@ -49,4 +50,14 @@ iex(12)> Core
 Homer.Core
 iex(13)> Core.say "whassup"
 "D'oh."
+```
+
+### Write a Boundary Layer
+```
+iex(4)> Homer.talk
+Say something to Homer:bye
+D'oh
+Woo hoo!
+:ok
+iex(5)> 
 ```

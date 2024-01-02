@@ -1,4 +1,4 @@
-defmodule Homer.Core do
+defmodule Homer.Sentence do
   def say(sentence) do
     cond do
       String.ends_with?(sentence, "?") ->

@@ -1,4 +1,5 @@
 defmodule Homer do
+  alias Homer.Conversation
   @moduledoc """
   Documentation for `Homer`.
   """
@@ -15,7 +16,7 @@ defmodule Homer do
   in iex 👇
   String.ends_with? words, "?"
   """
-  def say(_words) do
-    "D'oh."
+  def talk() do
+    Conversation.loop("Hi")
   end
 end
