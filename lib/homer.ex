@@ -4,15 +4,18 @@ defmodule Homer do
   """
 
   @doc """
-  Hello world.
+  Communicate with Homer. We call
+  Homer.say(words) and Homer respondes:
 
-  ## Examples
+  Generally,
 
-      iex> Homer.hello()
-      :world
+  Homer.say("something") responds with
+  _> "D'oh."
 
+  in iex 👇
+  String.ends_with? words, "?"
   """
-  def hello do
-    :world
+  def say(_words) do
+    "D'oh."
   end
 end

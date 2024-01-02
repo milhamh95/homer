@@ -3,6 +3,6 @@ defmodule HomerTest do
   doctest Homer
 
   test "greets the world" do
-    assert Homer.hello() == :world
+    assert Homer.say("word") == :world
   end
 end
